@@ -5,10 +5,10 @@ const connect = () => {
   // create the connection to database
   const connection = mysql.createPool({
     connectionLimit : 10,
-    host: process.env.DB_HOST,
-    user: process.env.DB_USER,
-    database: process.env.DB_NAME,
-    password: process.env.DB_PASS,
+    host: localhost,
+    user: iliasd,
+    database: lomake,
+    password: Kanta13,
   });
   return connection;
 };
